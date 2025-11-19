@@ -184,6 +184,9 @@ export default function HomePage() {
                 联系我
               </a>
             </p>
+            <p className="mt-2 text-xs text-gray-400">
+              本项目由 vscode+roocode 构建
+            </p>
           </div>
         </div>
       </footer>
