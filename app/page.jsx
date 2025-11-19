@@ -53,17 +53,18 @@ export default function HomePage() {
         <div className="mb-8">
           <div className="text-center mb-6">
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
-              探索前端世界
+              探索开发者世界
             </h2>
             <p className="text-lg text-gray-600">
-              发现优质的前端开发资源，提升你的技能
+              发现优质的全栈开发资源，提升你的技能
             </p>
           </div>
 
           <div className="max-w-2xl mx-auto">
             <SearchBox
               onSearch={handleSearch}
-              placeholder="搜索框架、工具、教程..."
+              value={searchQuery}
+              placeholder="搜索框架、工具、教程、平台..."
             />
           </div>
         </div>
@@ -165,7 +166,7 @@ export default function HomePage() {
       <footer className="bg-white border-t border-gray-200 mt-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center text-gray-500 text-sm">
-            <p>© 2024 前端资源门户. 精心整理，助力开发者成长.</p>
+            <p>© 2024 开发者资源导航. 精心整理，助力开发者成长.</p>
             <p className="mt-2">
               共收录{" "}
               <span className="font-semibold text-primary-600">

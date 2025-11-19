@@ -4,13 +4,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "前端资源门户",
-  description: "精选前端开发资源，包含框架、工具、教程等",
-  keywords: "前端,React,Vue,JavaScript,TypeScript,UI库,工具",
-  authors: [{ name: "Frontend Portal" }],
+  title: "开发者资源导航",
+  description: "精选全栈开发资源，包含前端、后端、数据库、DevOps等",
+  keywords:
+    "前端,后端,数据库,DevOps,React,Vue,Node.js,JavaScript,TypeScript,UI库,工具",
+  authors: [{ name: "Developer Portal" }],
   openGraph: {
-    title: "前端资源门户",
-    description: "精选前端开发资源，包含框架、工具、教程等",
+    title: "开发者资源导航",
+    description: "精选全栈开发资源，包含前端、后端、数据库、DevOps等",
     type: "website",
     locale: "zh_CN",
   },

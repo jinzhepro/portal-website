@@ -11,9 +11,11 @@ export default function Header() {
               <Sparkles className="h-6 w-6 text-yellow-500 -ml-2" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">前端资源门户</h1>
+              <h1 className="text-xl font-bold text-gray-900">
+                开发者资源导航
+              </h1>
               <p className="text-sm text-gray-500">
-                精选前端开发资源，助力开发者成长
+                精选全栈开发资源，助力开发者成长
               </p>
             </div>
           </div>
