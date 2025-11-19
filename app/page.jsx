@@ -174,6 +174,16 @@ export default function HomePage() {
               </span>{" "}
               个优质资源
             </p>
+            <p className="mt-4">
+              <a
+                href="https://msg.cnblogs.com/send/jinzhepro"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary-600 hover:text-primary-700 font-medium transition-colors"
+              >
+                联系我
+              </a>
+            </p>
           </div>
         </div>
       </footer>
